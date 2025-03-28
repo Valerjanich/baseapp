@@ -1,12 +1,63 @@
 import React from 'react';
-import logoImage from './assets/logo.png'; // Resmin yolunu belirtin
 
-const Logo: React.FC = () => {
+const LogoLight: React.FC = () => {
   return (
-    <div>
-      <img src={logoImage} alt="Logo" width="200" height="200" />
-    </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 600 600" // SVG'nin boyutlarına göre viewBox'u ayarladım
+      width="200" // İstediğiniz boyutu ayarlayabilirsiniz
+      height="200" // İstediğiniz boyutu ayarlayabilirsiniz
+    >
+      <g>
+        <linearGradient
+          id="SVGID_00000051341964447001563600000015244397933289772947_"
+          gradientUnits="userSpaceOnUse"
+          x1="-13.2556"
+          y1="841.1176"
+          x2="121.3451"
+          y2="841.1176"
+        >
+          <stop offset="0" style={{ stopColor: '#32F9FF' }} />
+          <stop offset="1" style={{ stopColor: '#219FFF' }} />
+        </linearGradient>
+        <path
+          style={{ fill: 'url(#SVGID_00000051341964447001563600000015244397933289772947_)' }}
+          d="M121.3,865.5c-3.4-5.7-9.7-9.5-16.8-9.5H-13.3v0c0-21.7,17.6-39.3,39.3-39.3h67.2l0.6,1l22.1,38.3L121.3,865.5z"
+        />
+        <linearGradient
+          id="SVGID_00000182519973073025814000000006297091651835519383_"
+          gradientUnits="userSpaceOnUse"
+          x1="161.2443"
+          y1="816.75"
+          x2="161.2443"
+          y2="973.8333"
+        >
+          <stop offset="0" style={{ stopColor: '#32F9FF' }} />
+          <stop offset="1" style={{ stopColor: '#219FFF' }} />
+        </linearGradient>
+        <path
+          style={{ fill: 'url(#SVGID_00000182519973073025814000000006297091651835519383_)' }}
+          d="M229.3,973.8h-45.4l-4.3-7.4l-18.4-31.9l-11.3-19.6l-0.6-1l-10.8-18.6l-11.3-19.6l-5.4-9.4l-0.5-0.8l-5.5-9.5l-22.1-38.3l-0.6-1h11.3c17.9,0,34,8,44.8,20.6c2.3,2.7,4.4,5.7,6.2,8.8l5.7,9.9l11.3,19.6l11.3,19.6l11.3,19.6l11.3,19.6h0v0L229.3,973.8z"
+        />
+        <linearGradient
+          id="SVGID_00000013888725815501215230000006079832340310688175_"
+          gradientUnits="userSpaceOnUse"
+          x1="121.571"
+          y1="914.9271"
+          x2="121.571"
+          y2="973.8333"
+        >
+          <stop offset="0" style={{ stopColor: '#32F9FF' }} />
+          <stop offset="1" style={{ stopColor: '#219FFF' }} />
+        </linearGradient>
+        <polygon
+          style={{ fill: 'url(#SVGID_00000013888725815501215230000006079832340310688175_)' }}
+          points="149.9,954.2 138.6,973.8 93.2,973.8 115.9,934.6 116.6,933.3 127.2,914.9 134,926.6 138.6,934.6"
+        />
+      </g>
+    </svg>
   );
 };
 
-export default Logo;
+export default LogoLight;
